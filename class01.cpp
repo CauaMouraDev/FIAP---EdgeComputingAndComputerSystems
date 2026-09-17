@@ -22,10 +22,12 @@ void setup()
 void loop()
 {
 
-    if (digitalRead(bt) == HIGH)
-    {
+    if (digitalRead(bt) == HIGH){
+        
         digitalWrite(ld1, HIGH);
+        delay(1000);
         digitalWrite(ld2, HIGH);
+        delay(1000);
         digitalWrite(ld3, HIGH);
     }
 }
